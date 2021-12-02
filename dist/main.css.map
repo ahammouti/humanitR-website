@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA;IACI,SAAS;IACT,qBAAqB;IACrB,WAAW;AACf,C","sources":["webpack://humanitr/./src/Styles/index.css"],"sourcesContent":["body {\r\n    margin: 0;\r\n    background: peachpuff;\r\n    color: #222;\r\n}"],"names":[],"sourceRoot":""}
