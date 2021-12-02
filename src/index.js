@@ -1,9 +1,7 @@
-require('file-loader?name=[name].[ext]!../public/index.html')
+const elvenShieldsRecipe = {
+    leatherStrips: 2,
+    ironIngot: 1,
+    caca: 4,
+};
 
-import React from 'react';
-import ReactDom from 'react-dom';
-import App from './App';
-
-const rootElement = document.getElementById('root');
-
-ReactDom.render(<App />, rootElement);
+console.log(elvenShieldsRecipe);
