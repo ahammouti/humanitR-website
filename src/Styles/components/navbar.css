@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock&display=swap');
+
+/* MOBILE */  /* fini */
+@media screen and (max-width: 700px) {
+
+    .container-tablet {
+        display: none;
+    }
+
+    /* HEADER NAV */
+    .wrap-logo-donation-burger {
+        min-height: 60vmin;
+        height: 240vmin;
+        height: 100%;
+        width: 100%;
+        background: rgba(168, 35, 35, 0);
+    }
+
+    .bgOrange {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        right: 0;
+        width: 100%;
+        /* top: -394px; */
+    }
+
+    .wrap-slogan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 5%;
+    }
+
+    .sloganHumanitR {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60vmin;
+        margin-right: 15%;
+    }
+
+    .logoHumanitR {
+        position: absolute;
+        width: 27vmin;
+        right: 5%;
+        top: 5px;
+    }
+
+    .wrap-buttonDonation {
+        display: flex;
+        justify-content: center;
+        margin-top: -2%;
+        margin-right: 12%;
+    }
+
+    .buttonDonation {
+        font-family: 'Overlock';
+        font-weight: 600;
+        font-size: 4.5vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        width: 30vmin;
+        height: 40px;
+        background: #AB0000;
+        color: #fff;
+        border: #000 0px solid;
+        border-radius: 50px;
+        box-shadow: 0px 5px 5px rgb(0, 0, 0);
+        transition: all ease-in-out 0.1s;
+    }
+    .buttonDonation:hover {
+        transform: scale(0.9);
+        transition: all ease-in-out 0.2s;
+    }
+
+    /* NAV OVERLAY */
+    .navbar {
+        z-index: 5;
+        position: absolute;
+        position: fixed;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(2, 2, 2, 0.911);
+        border-bottom-right-radius: 0%;
+        min-width: 65vw;
+        min-height: 100%;
+        transform: translateX(0%);
+        transition: all ease-in-out 0.5s;
+    }
+
+    .link {
+        color: #fff;
+        font-family: 'Overlock';
+        margin-top: 15px;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    /* .link:first-child { */
+        /* width: 75vw;
+    }
+
+    .link:nth-child(2) {
+        width: 70vw;
+    }
+
+    .link:nth-child(3) {
+        width: 60vw;
+    }
+    .link:nth-child(4) {
+        width: 50vw;
+    }
+
+    .link:last-child {
+        width: 48vw;
+    } */
+
+    .link:not(:last-child) {
+        border-bottom: 1px solid rgb(39, 39, 39);
+    }
+
+    .wrap-burgerButton {
+        position: relative;
+        display: block !important;
+        top: 40px;
+        left: 20px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .burgerButton {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        top: 20px;
+        left: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .closeButton {
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px !important;
+        height: 40px;
+    }
+
+    .closeButton img {
+        width: 1.2rem;
+    }
+
+    .wrap-closeButton {
+        display: block !important;
+    }
+
+     .clickCloseNavbar {
+        position: absolute;
+        transform: translateX(-100%) !important;
+        transition: all ease-in-out 0.5s;
+    }
+
+}
+
+/* DESKTOP (en cours...) */ 
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.bgOrange {
+    position: absolute;
+    z-index: -1;
+}
+
+.buttonDonation {
+    font-family: 'Overlock';
+        font-weight: 600;
+        font-size: 4.5vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        width: 30vmin;
+        height: 40px;
+        background: #AB0000;
+        color: #fff;
+        border: #000 0px solid;
+        border-radius: 50px;
+        box-shadow: 0px 5px 5px rgb(0, 0, 0);
+        transition: all ease-in-out 0.1s;
+}
+
+.link {
+    font-family: 'Overlock';
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1%;
+    margin-left: 2%;
+}
+
+.link span {
+    line-height: 25px;
+    border-bottom: 2px solid #fff;
+}
+
+.wrap-closeButton {
+    display: none;
+}

@@ -1,13 +1,11 @@
-import { render } from 'react-dom';
-import App from './Components/App';
-import './Styles/index.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 
-render(<App />, document.getElementById('root'))
-
-const elvenShieldsRecipe = {
-    leatherStrips: 2,
-    ironIngot: 1,
-    caca: 4,
-};
-
-console.log(elvenShieldsRecipe);
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+    document.getElementById('root')
+);
